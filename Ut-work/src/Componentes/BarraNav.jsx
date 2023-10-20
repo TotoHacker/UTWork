@@ -10,7 +10,7 @@ const Navbar = ({ open, toggleNavbar }) => {
     { name: "INICIO", link: "/", icon: MdOutlineDashboard },
     { name: "MENSAJES", link:"/" , icon: FiMessageSquare },
     { name: "NOTAS PUBLICAS", link: "/", icon: FiFolder },                                                                                                                                                                                                                      
-    { name: "NOTAS", link: "/", icon: FiFolder },
+    { name: "NOTAS", link: "/Notas", icon: FiFolder },
     { name: "CONFIGURACION", link: "/", icon: RiSettings4Line },
     { name: "INICIAR SESION", link: "/InicioS", icon: AiOutlineUser },
     { name: "RESGISTRASE", link: "/", icon: AiOutlineUser },
