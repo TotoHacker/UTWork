@@ -5,15 +5,15 @@ import { FiMessageSquare, FiFolder } from "react-icons/fi";
 import { RiSettings4Line } from "react-icons/ri";
 import { AiOutlineUser } from "react-icons/ai";
 import { HiMenuAlt3 } from "react-icons/hi";
-
 const Navbar = ({ open, toggleNavbar }) => {
   const menus = [
     { name: "INICIO", link: "/", icon: MdOutlineDashboard },
-    { name: "MENSAJES", link: "/", icon: FiMessageSquare },
-    { name: "NOTAS PUBLICAS", link: "/", icon: FiFolder },
+    { name: "MENSAJES", link:"/" , icon: FiMessageSquare },
+    { name: "NOTAS PUBLICAS", link: "/", icon: FiFolder },                                                                                                                                                                                                                      
     { name: "NOTAS", link: "/", icon: FiFolder },
     { name: "CONFIGURACION", link: "/", icon: RiSettings4Line },
-    { name: "USUARIO", link: "/", icon: AiOutlineUser },
+    { name: "INICIAR SESION", link: "/InicioS", icon: AiOutlineUser },
+    { name: "RESGISTRASE", link: "/", icon: AiOutlineUser },
   ];
 
   return (
@@ -21,8 +21,7 @@ const Navbar = ({ open, toggleNavbar }) => {
       className={`bg-[#0e0e0e] transition-all min-h-screen ${
         open ? "w-72" : "w-16"
       } text-gray-100 px-4`}
-    >
-      <div className="py-3 flex justify-end">
+    >      <div className="py-3 flex justify-end">
         <HiMenuAlt3
           size={26}
           className="cursor-pointer"

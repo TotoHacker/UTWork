@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(to bottom, #2284BB, #FFFFFF);
+  }
+/* IS.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  
