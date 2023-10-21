@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
+import Navbar from "./BarraNav";
 
 const Calendario = () => {
     const currentDate = new Date();
+    const [open, setOpen] = useState(true);
     const [date, setDate] = useState(currentDate);
     const [events, setEvents] = useState([]);
     const [selectedDate, setSelectedDate] = useState(null);
@@ -99,7 +101,10 @@ const Calendario = () => {
     }, []);
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container">
+            <div className="navbar">
+                <Navbar open={open} toggleNavbar={() => setOpen(!open)} />
+            </div>
             <div className="bg-white rounded-lg shadow-lg">
                 <div className="p-4 border-b">
                     <div className="flex justify-between items-center">

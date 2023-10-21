@@ -18,4 +18,41 @@ body {
     right: 0;
   }
   
+  ion-icon{
+    font-size: 40px;
+    justify-content: space-between;
+      width: 58px; /* Ancho del contenedor */
+      justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+  }
   
+  .UTlogoapp{
+    display: flex; /* Usa un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 250px; /* Ancho del contenedor (ajusta según tus necesidades) */
+    height: 80px; /* Altura del contenedor (ajusta según tus necesidades) */
+    /* Solo para visualizar el contenedor */
+  }
+  
+  .editar {
+    font-size: 15px;
+    color: blue;
+  }
+  
+  .eliminar{
+    font-size: 15px;
+    color: red;
+  }
+  
+  .guardar{
+    font-size: 15px;
+    color: orange;
+    padding: auto;
+  }
+  
+  .cancelar{
+    font-size: 15px;
+    color: red;
+    padding: auto;
+  }

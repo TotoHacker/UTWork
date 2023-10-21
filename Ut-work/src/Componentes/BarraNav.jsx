@@ -13,7 +13,7 @@ const Navbar = ({ open, toggleNavbar }) => {
     { name: "NOTAS", link: "/", icon: FiFolder },
     { name: "CONFIGURACION", link: "/", icon: RiSettings4Line },
     { name: "INICIAR SESION", link: "/InicioS", icon: AiOutlineUser },
-    { name: "RESGISTRASE", link: "/", icon: AiOutlineUser },
+    { name: "RESGISTRASE", link: "/Registro", icon: AiOutlineUser },
   ];
 
   return (
