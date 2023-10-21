@@ -13,6 +13,7 @@ const Navbar = ({ open, toggleNavbar }) => {
     { name: "MENSAJES", link:"/" , icon: FiMessageSquare },
      // Utiliza el componente de ícono importado },                                                                                                                                                                                                                      
     { name: "NOTAS", link: "/Notas", icon: FiFolder },
+    { name: "NOTAS PUBLICAS", link: "/Notas", icon: FiFolder },
     {name: "CALENDARIO", link: "/", icon: FaCalendar },
     { name: "CONFIGURACION", link: "/", icon: RiSettings4Line },
     { name: "INICIAR SESION", link: "/InicioS", icon: AiOutlineUser },
