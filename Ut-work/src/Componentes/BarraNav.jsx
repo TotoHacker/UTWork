@@ -9,10 +9,9 @@ import { HiMenuAlt3 } from "react-icons/hi";
 const Navbar = ({ open, toggleNavbar }) => {
   const menus = [
     { name: "INICIO", link: "/", icon: MdOutlineDashboard },
-    { name: "MENSAJES", link: "/", icon: FiMessageSquare },
     { name: "NOTAS PUBLICAS", link: "/", icon: FiFolder },
-    { name: "NOTAS", link: "/", icon: FiFolder },
-    { name: "CONFIGURACION", link: "/", icon: RiSettings4Line },
+    { name: "NOTAS", link: "/note", icon: FiFolder },
+    { name: "Calendario", link: "/Calendar", icon: RiSettings4Line },
     { name: "INICIAR SESION", link: "/InicioS", icon: AiOutlineUser },
     { name: "RESGISTRASE", link: "/", icon: AiOutlineUser },
   ];
@@ -21,7 +20,7 @@ const Navbar = ({ open, toggleNavbar }) => {
     <div
       className={`bg-[#0e0e0e] transition-all h-screen ${
         open ? "w-72" : "w-16"
-      } text-gray-100 px-4 overflow-y-auto`}
+      } text-gray-100 px-4 overflow-y-auto `}
     >
       <div className="py-3 flex justify-end">
         <HiMenuAlt3
