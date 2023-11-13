@@ -5,13 +5,15 @@ import { FiMessageSquare, FiFolder } from "react-icons/fi";
 import { RiSettings4Line } from "react-icons/ri";
 import { AiOutlineUser } from "react-icons/ai";
 import { HiMenuAlt3 } from "react-icons/hi";
+import { FaCalendar } from 'react-icons/fa';
+
 
 const Navbar = ({ open, toggleNavbar }) => {
   const menus = [
     { name: "INICIO", link: "/", icon: MdOutlineDashboard },
-    { name: "NOTAS PUBLICAS", link: "/", icon: FiFolder },
+    { name: "NOTAS PUBLICAS", link: "/not", icon: FiFolder },
     { name: "NOTAS", link: "/note", icon: FiFolder },
-    { name: "Calendario", link: "/Calendar", icon: RiSettings4Line },
+    {name: "CALENDARIO", link: "/", icon: FaCalendar },
     { name: "INICIAR SESION", link: "/InicioS", icon: AiOutlineUser },
     { name: "RESGISTRASE", link: "/", icon: AiOutlineUser },
   ];

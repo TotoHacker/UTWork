@@ -12,12 +12,12 @@ const Home = () => {
       <div className="space-y-4">
         <Link to="/Nnote">
           <div className="bg-red-600 p-4 rounded-lg shadow-lg w-64 h-64 mt-12 transform hover:scale-105 transition-transform">
-            <p className="text-sm"> Nueva Nota + </p>
+            <p className="text-sm"> Mis Notas + </p>
           </div>
         </Link>
         <Link to="/Nnote">
         <div className="bg-green-600 p-4 rounded-lg shadow-lg w-64 h-64 mt-12 transform hover:scale-105 transition-transform">
-          <p className="text-sm">Nueva Nota + </p>
+          <p className="text-sm">Notas Publicas + </p>
         </div>
         </Link>
       </div>
@@ -25,7 +25,7 @@ const Home = () => {
       <div className="space-y-4">
   <Link to="/Nnote">
     <div className="bg-blue-500 p-4 rounded-lg shadow-lg w-64 h-64 mt-12 transform hover:scale-105 transition-transform">
-      <p className="text-sm"> Nueva Nota + </p>
+      <p className="text-sm">  Nota + </p>
     </div>
   </Link>
 
