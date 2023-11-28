@@ -3,7 +3,7 @@ import Navbar from "./BarraNav";
 import "./IS.css";
 
 const InicioS = () => {
-  
+  const [open, setOpen] = useState(true);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
